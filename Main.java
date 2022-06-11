@@ -88,6 +88,7 @@ public class Main {
 						System.out.printf("%.2f" , BigDecimal.valueOf(cu.area()).movePointRight(2).round(MathContext.UNLIMITED).movePointLeft(2));
 						break;
 					default:
+						System.out.println("Invalid Option");
 						break;
 					}
 			}
